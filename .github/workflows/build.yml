@@ -133,12 +133,12 @@ jobs:
         name: raw-plugins
         path: artifacts
 
-#     - name: Install Apple certificates
+    - name: Install Apple certificates
 #       if: github.ref == 'refs/heads/master' || contains(github.ref, 'refs/tags/v')
-#       uses: apple-actions/import-codesign-certs@v1
-#       with:
-#         p12-file-base64: ${{ secrets.CERTIFICATES_P12 }}
-#         p12-password: ${{ secrets.CERTIFICATES_P12_PASSWORD }}
+      uses: apple-actions/import-codesign-certs@v1
+      with:
+        p12-file-base64: ${{ secrets.CERTIFICATES_P12 }}
+        p12-password: ${{ secrets.CERTIFICATES_P12_PASSWORD }}
 
     - name: Package Plugin
       if: github.ref == 'refs/heads/master' || contains(github.ref, 'refs/tags/v')
