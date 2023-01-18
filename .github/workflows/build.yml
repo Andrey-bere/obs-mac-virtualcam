@@ -152,9 +152,9 @@ jobs:
 #         AC_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
 #         AC_PROVIDER_SHORTNAME: ${{ secrets.NOTARIZATION_PROVIDER_SHORTNAME }}
 
-    - name: Upload .pkg Installer
-      uses: actions/upload-artifact@v1
-      if: github.ref == 'refs/heads/master' || contains(github.ref, 'refs/tags/v')
-      with:
-        name: pkg-installer
-        path: obs-mac-virtualcam/release
+#     - name: Upload .pkg Installer
+#       uses: actions/upload-artifact@v1
+#       if: github.ref == 'refs/heads/master' || contains(github.ref, 'refs/tags/v')
+#       with:
+#         name: pkg-installer
+#         path: obs-mac-virtualcam/release
