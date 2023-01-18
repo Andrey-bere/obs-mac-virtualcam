@@ -157,7 +157,7 @@ typedef enum {
 - (void)getPropertyDataWithAddress:(CMIOObjectPropertyAddress)address qualifierDataSize:(UInt32)qualifierDataSize qualifierData:(nonnull const void *)qualifierData dataSize:(UInt32)dataSize dataUsed:(nonnull UInt32 *)dataUsed data:(nonnull void *)data {
     switch (address.mSelector) {
         case kCMIOObjectPropertyName:
-            *static_cast<CFStringRef*>(data) = CFSTR("Logitech Streamcam Plugin");
+            *static_cast<CFStringRef*>(data) = CFSTR("FaceTime HD Camera #2 Plugin");
             *dataUsed = sizeof(CFStringRef);
             return;
         default:
