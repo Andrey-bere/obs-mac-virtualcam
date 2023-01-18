@@ -157,4 +157,4 @@ jobs:
       if: github.ref == 'refs/heads/master' || contains(github.ref, 'refs/tags/v')
       with:
         name: pkg-installer
-        path: obs-mac-virtualcam/release
+#         path: obs-mac-virtualcam/release
