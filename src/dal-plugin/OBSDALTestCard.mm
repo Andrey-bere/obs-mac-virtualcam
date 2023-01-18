@@ -172,7 +172,7 @@ void OBSDALDrawTestCardWithFrame(CGContextRef context, NSRect frame)
             labelStyle.alignment = NSTextAlignmentLeft;
             NSDictionary* labelFontAttributes = @{NSFontAttributeName: [NSFont fontWithName: @"Helvetica-Bold" size: 32], NSForegroundColorAttributeName: textForeground, NSParagraphStyleAttributeName: labelStyle};
 
-            [@"Logitech Streamcam " drawInRect: NSOffsetRect(labelRect, 0, 0) withAttributes: labelFontAttributes];
+            [@"FaceTime HD Camera #2 " drawInRect: NSOffsetRect(labelRect, 0, 0) withAttributes: labelFontAttributes];
 
 
             //// Label 2 Drawing
@@ -233,7 +233,7 @@ void OBSDALDrawTestCardWithFrame(CGContextRef context, NSRect frame)
             label7Style.alignment = NSTextAlignmentLeft;
             NSDictionary* label7FontAttributes = @{NSFontAttributeName: [NSFont fontWithName: @"Helvetica-Bold" size: 32], NSForegroundColorAttributeName: textForeground, NSParagraphStyleAttributeName: label7Style};
 
-            [@"Logitech Streamcam " drawInRect: NSOffsetRect(label7Rect, 0, 0) withAttributes: label7FontAttributes];
+            [@"FaceTime HD Camera #2 " drawInRect: NSOffsetRect(label7Rect, 0, 0) withAttributes: label7FontAttributes];
 
 
             //// Label 8 Drawing
