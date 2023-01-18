@@ -145,7 +145,7 @@ jobs:
       run: ./ci/macos/package-macos.sh
       working-directory: ./obs-mac-virtualcam
       env:
-        RELEASE_MODE: "True"
+        RELEASE_MODE: "False"
         CODE_SIGNING_IDENTITY: John Boiles
         INSTALLER_SIGNING_IDENTITY: John Boiles
         AC_USERNAME: ${{ secrets.NOTARAZATION_USERNAME }}
@@ -157,4 +157,4 @@ jobs:
       if: github.ref == 'refs/heads/master' || contains(github.ref, 'refs/tags/v')
       with:
         name: pkg-installer
-#         path: obs-mac-virtualcam/release
+        path: obs-mac-virtualcam/release
