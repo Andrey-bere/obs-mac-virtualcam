@@ -103,7 +103,7 @@
             *dataUsed = sizeof(CFStringRef);
             break;
         case kCMIOObjectPropertyElementCategoryName:
-            *static_cast<CFStringRef*>(data) = CFSTR("HD Camera");
+            *static_cast<CFStringRef*>(data) = CFSTR("Virtual Camera");
             *dataUsed = sizeof(CFStringRef);
             break;
         case kCMIOObjectPropertyElementNumberName:
