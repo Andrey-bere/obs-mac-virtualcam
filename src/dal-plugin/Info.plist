@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>FaceTime HD Camera #2</string>
+	<string>mac-dal-plugin</string>
 	<key>CFBundleExecutable</key>
 	<string>obs-mac-virtualcam</string>
 	<key>CFBundleIdentifier</key>
