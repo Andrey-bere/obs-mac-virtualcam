@@ -2,30 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
+	<key>CFBundleName</key>
+	<string>mac-dal-plugin</string>
 	<key>CFBundleExecutable</key>
 	<string>obs-mac-virtualcam</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.obsproject.obs-mac-virtualcam.dal-plugin</string>
+	<string>com.johnboiles.obs-mac-virtualcam.dal-plugin</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>OBS Virtual Camera</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>26.1.0</string>
+	<string>29.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>3863416150</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
-	<key>CFBundleVersion</key>
-	<string>26.1.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.13</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>(c) 2012-2023 Hugh Bailey</string>
 	<key>CFPlugInFactories</key>
 	<dict>
 		<key>7E950B8C-5E49-4B9E-B7D0-B3608A08E8F6</key>
-		<string>PlugInMain</string>
+		<string>OBSDALPlugInMain</string>
 	</dict>
 	<key>CFPlugInTypes</key>
 	<dict>
@@ -36,9 +38,7 @@
 	</dict>
 	<key>CMIOHardwareAssistantServiceNames</key>
 	<array>
-		<string>com.obsproject.obs-mac-virtualcam.server</string>
+		<string>com.johnboiles.obs-mac-virtualcam.server</string>
 	</array>
-	<key>LSMinimumSystemVersion</key>
-	<string>10.13</string>
 </dict>
 </plist>
